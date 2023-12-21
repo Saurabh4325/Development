@@ -1,0 +1,55 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+div h1 {
+    justify-content: center;
+    display: flex;
+}
+
+.srch_itm_2 {
+    margin-top: 30px;
+    margin-left: 10px; /* Adjusted margin */
+}
+
+ul li {
+    border: 2px solid red;
+    margin: 0 10px; /* Adjusted margin */
+    display: inline-block;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    cursor: pointer; /* Adjusted cursor */
+}
+
+.play {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.comp {
+    /* display: inline-block; */
+    width: max-content;
+    margin: auto;
+    justify-content: center;
+    margin-top: 60px;
+}
